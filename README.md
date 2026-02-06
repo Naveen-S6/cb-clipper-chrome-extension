@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# cb-clipper-chrome-extension
-=======
 # CB Clipper - Browser Extension
 
 A Chrome extension that lets you capture, organize, and retrieve highlighted text, bookmarks, screenshots, and video timestamps from any web page.
@@ -171,4 +168,3 @@ extension/
 - **Multi-frame capture**: background.js uses `chrome.scripting.executeScript` with `allFrames: true` to query every frame, then picks the best selection and video timestamp
 - **Soft delete**: Clips are marked `isDeleted` rather than removed, allowing a trash/restore workflow
 - **Sidebar as iframe**: The sidebar panel is injected as an iframe pointing to `sidebar.html`, isolating its styles and scripts from the host page
->>>>>>> 181c3f0 (cb clipper v1)
